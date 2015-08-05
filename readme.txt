@@ -3,19 +3,20 @@ Contributors: lucymtc
 Donate link: http://wptips.me/simple-cookie-notification-bar/
 Tags: cookies,notifications,fixed bar,customizable,responsive
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 1.3
+Tested up to: 4.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Displays a simple cookie notification bar on the bottom of the page, customizable colours and texts.
 
 == Description ==
-This plugin will display a simple notification bar on the bottom of the page with a button to hide the notification.
+This lightweight plugin will display a simple notification bar on the bottom of the page with a button to hide the notification.
 
 * Possible to add a 'More Information' button with a link on it. 
 * All texts, colours and font size can be changed from a simple settings form.
 * Responsive.
+* Compatible with Polylang and WPML multilingual plugins
 
 == Installation ==
 1. Unzip simple-cookie-notification-bar.zip
@@ -29,6 +30,14 @@ This plugin will display a simple notification bar on the bottom of the page wit
 3. ../assets/screenshot-3.png
 
 == Changelog ==
+
+= 1.4 =
+* Added option for buttons border color.
+* Modifications on the settings form UI.
+* Changed the custom style output to use wp_get_cache, wp_set_cache.
+* User can now add some html tags in the message.
+* Added minified versions of the css and fixed some elements style.
+* Added compatibility with Polylang and WPML multilingual plugins.
 
 = 1.3 =
 * Added display shadow option
